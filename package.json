@@ -1,0 +1,27 @@
+{
+  "name": "MEVN-Simple",
+  "version": "1.0.0",
+  "description": "MEVN-Simple",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmi00/MEVN-Simple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmi00/MEVN-Simple/issues"
+  },
+  "homepage": "https://github.com/juanmi00/MEVN-Simple#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0"
+  }
+}
