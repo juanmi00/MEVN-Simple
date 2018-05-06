@@ -1,19 +1,17 @@
-alert('funcionando vue')
-import vue from 'vue'
-import vueRouter from 'vue-router'
-import vueAxios from 'vue-axios'
+import Vue from 'vue'
+
+import VueRouter from  'vue-router';
+Vue.use(VueRouter)
+
+import VueAxios from 'vue-axios'
 import axios from 'axios'
-Vue.use(vueRouter)
-Vue.use(axios,vueAxios)
+Vue.use(VueAxios,axios)
 
-import App from './app.vue'
+import App from './App.vue'
 
-const routes = [
-]
-const router = new vueRouter({
-	mode:'history',
-	routes
+
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
 })
-
-new Vue(Vue.util.extend({router}),App).$mount('#app')
-

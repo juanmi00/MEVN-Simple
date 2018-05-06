@@ -28,7 +28,7 @@ router.post('/',(req,res)=>{
 		})
 })
 
-//add Item
+//update Item
 router.put('/:id',(req,res,next)=>{
 	Item.findById(req.params.id , ( err , item )=>{
 		if(!item){
