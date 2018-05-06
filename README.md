@@ -1,18 +1,27 @@
-# demistify-project
+# MEVN-Simple
 
-> A Vue.js project
+> A Complete CRUD width MongoDB, Node and Vue.js
 
 ## Build Setup
 
 ``` bash
+# Requirements 
+MongoDB and node.js
+
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# Start mongoDb
+mongod
+
+# serve on localhost:3000 
+npm run start
+
+# compile for changes in vue files, not hot reload (yet)
 npm run dev
 
 # build for production with minification
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
